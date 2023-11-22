@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Universe - a single page application for stars lovers!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>        
+        <nav>
+            <div id="logo"><img src="./assets/Vector.svg" alt="Logotipo da SPA Universe"></div>
+            <ul>
+                <li><a href="/" onclick="route()">Home</a></li>
+                <li><a href="/o-universo" onclick="route()">O Universo</a></li>
+                <li><a href="/exploracao" onclick="route()">Exploração</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="app"></div>
+    </main>
+    <script src="./js/index.js" type="module"></script>
+
+    <div class="card">
+        <div class="toggle"></div>
+        
+    </div>
+</body>
+</html>
